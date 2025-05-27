@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class GetandPostDemo {
 
- //   @Test
+    @Test
     public void testGet(){
 
         baseURI = "https://reqres.in/api";
@@ -30,16 +30,10 @@ public class GetandPostDemo {
     public void testPost(){
     
     Map<String, Object> map = new HashMap<String, Object>();
-    
-//    map.put("name","Raghav");
-//    map.put("job", "Teacher");
-
-//    System.out.println(map);
+    map.put("name","Raghav");
+    map.put("job", "Teacher");
     
     JSONObject request = new JSONObject(map);
-    
-    request.put("name", "Raghav");
-    request.put("job", "Teacher");
     
     System.out.println(request.toJSONString());
     
