@@ -33,7 +33,7 @@ public class GetandPostDemo {
     
 //    map.put("name","Raghav");
 //    map.put("job", "Teacher");
-    
+//    sd
 //    System.out.println(map);
     
     JSONObject request = new JSONObject(map);
