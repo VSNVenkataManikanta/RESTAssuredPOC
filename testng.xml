@@ -1,0 +1,9 @@
+
+<suite name="Suite1">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testcollection.GetandPostDemo"/>
+      <class name="testcollection.TestDemo"/>
+    </classes>
+  </test>
+</suite>
