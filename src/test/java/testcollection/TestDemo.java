@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
 
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 
@@ -28,6 +27,7 @@ public class TestDemo {
 		Assert.assertEquals(statuscode, 200);
 		
 	}
+	
 	@Test
 	public void test_2() {
 		
